@@ -34,7 +34,7 @@ const m = {
   hours: 14,
   minutes: 30,
   seconds: 0,
-  enableUtc: false,
+  enableUtc: true,
   words: {
     days: { lambda: (n, e) => e > 1 ? n + "s" : n, root: "day" },
     hours: { lambda: (n, e) => e > 1 ? n + "s" : n, root: "hour" },
