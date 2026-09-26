@@ -44,7 +44,6 @@ const m = {
   plural: !0,
   inline: !1,
   inlineSeparator: ", ",
-  enableUtc: !1,
   onEnd: () => {
   },
   refresh: 1e3,
