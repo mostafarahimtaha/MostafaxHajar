@@ -31,10 +31,9 @@ const m = {
   year: 2026,
   month: 11,
   day: 6,
-  hours: 14,
+  hours: 12,
   minutes: 30,
   seconds: 0,
-  enableUtc: true,
   words: {
     days: { lambda: (n, e) => e > 1 ? n + "s" : n, root: "day" },
     hours: { lambda: (n, e) => e > 1 ? n + "s" : n, root: "hour" },
@@ -44,6 +43,7 @@ const m = {
   plural: !0,
   inline: !1,
   inlineSeparator: ", ",
+  enableUtc: !0,
   onEnd: () => {
   },
   refresh: 1e3,
