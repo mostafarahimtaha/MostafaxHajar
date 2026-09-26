@@ -28,11 +28,11 @@ const w = (n, e, o, t, l, d) => {
  *  - mira01
  */
 const m = {
-  year: 2024,
-  month: 12,
-  day: 25,
-  hours: 0,
-  minutes: 0,
+  year: 2026,
+  month: 11,
+  day: 6,
+  hours: 14,
+  minutes: 30,
   seconds: 0,
   words: {
     days: { lambda: (n, e) => e > 1 ? n + "s" : n, root: "day" },
