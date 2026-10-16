@@ -70,6 +70,7 @@ const m = {
   hours: 12,
   minutes: 30,
   seconds: 0,
+  enableUtc: true,
 
   words: {
     days: {
