@@ -62,8 +62,8 @@ const E = (n, e) => {
  */
 
 const m = {
-  // Wedding: November 6, 2026, 2:30 PM Cairo time.
-  // Cairo is UTC+2 on this date, so the UTC target is 12:30 PM.
+  // Wedding: November 6, 2026, 2:30 PM Cairo time (UTC+2).
+  // Equivalent UTC target: November 6, 2026, 12:30 PM.
   year: 2026,
   month: 11,
   day: 6,
@@ -94,7 +94,7 @@ const m = {
   inline: false,
   inlineSeparator: ", ",
 
-  // Keep UTC enabled so every visitor sees the same target instant.
+  // UTC enabled so every visitor sees the same target instant.
   enableUtc: true,
 
   onEnd: () => {},
